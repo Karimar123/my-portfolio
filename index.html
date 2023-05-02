@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ën">
+<head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sophos Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'rel='stylesheet'>
+
+</head>
+<body>
+                <div class="container">
+                        <nav>
+                                <h2 class="logo"><span>M</span>y <span>P</span>ortfolio</h2>
+                                <ul>
+                                        <li><a href="#home">Home</a></li>
+                                        <li><a href="#profile">Profile</a></li>
+                                        <li class="dropdown"><a href="#about" class="dropbtn">About</a>
+                                                <div class="dropdown-content">
+                                                        <a href="#ransomware">Ransomware</a>
+                                                        <a href="#sophos">Sophos</a>
+                                                </div>
+                                        </li>
+                                        
+                                        <li><a href="#configuration">Configuration</a></li>
+                                        
+                                </ul>
+                        </nav>
+                        <section class="home" id="home">
+                                <div class="home_content">
+
+                                        <h4>HELLO, IT'S ME</h4> 
+                                        <h1><span1 class="auto-input"></span1></h1>
+                                        <p>An I.T. student in Saint Vincent College of Cabuyao a beginner and soon to be an aspiring web designer.</p>
+                                        <p1>Want to learn more about this page? Browse for more</p1>
+                                </div>         
+                        </div>
+                        
+                        <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+                                
+                                <script>
+                                        var typed = new Typed(".auto-input", {
+                                                strings: ["I'm Maricar Enriquez", "A learner", "A coder"],
+                                                typeSpeed:80,
+                                                backSpeed:80,
+                                                loop: true
+                                        })
+                                </script>
+                        </section>
+                        
+
+                        <section class="profile" id="profile">
+                                     <div class="profile-content">
+                                        <img src="images/myprofile.png" class="myprofile">
+                                     </div>
+                                        
+                        </section>
+
+                        <section class="ransomware" id="ransomware">
+                                <div class="ransomware-content">
+                                        <img src="images/about-ransomware.png" class="about-ransomware">
+
+                                        <div class="stages-content">
+                                        <h1>Stages of a ransomware attack</h1>
+                                        <p>  A ransomware attack typically proceeds through the following stages.</p>
+                                        <h3>  Stage 1: Initial access</h3>
+                                        <pre>
+                                                The most common access vectors for ransomware attacks continue to be
+                                                phishing and vulnerability exploitation.
+                                        </pre>
+                                        <h3>  Stage 2: Post-exploitation</h3>
+                                        <pre>
+                                                Depending on the initial access vector, this second stage may involve an 
+                                                intermediary remote access tool (RAT) or malware prior to establishing 
+                                                interactive access.
+                                        </pre>
+                                        <h3>  Stage 3: Understand and expand</h3>
+                                        <pre>
+                                                During this third stage of the attack, attackers focus on understanding the 
+                                                local system and domain that they currently have access to, and on gaining 
+                                                access to other systems and domains (called lateral movement).
+                                        </pre>
+                                        <h3>  Stage 4: Data collection and exfiltration</h3>               
+                                        <pre>
+                                                Ransomware creators focus on finding valuable data and stealing it by downloading 
+                                                or exporting it for themselves. They typically focus on material that can be used 
+                                                for double extortion, such as intellectual property, login credentials, and customer 
+                                                personal information.
+                                        </pre>
+                                        <h3>  Stage 5: Deployment and sending the note</h3>           
+                                        <pre>
+                                                Crypto ransomware encrypts data and disables system restore functionality. 
+                                                Non-encrypting ransomware locks the screen of the victim's device and inundates it 
+                                                with pop-up ads. The ransomware notifies the victim of the infection once files have  
+                                                been encrypted and/or the device has been deactivated, often by dropping a.txt file 
+                                                on the desktop or by means of a pop-up notification. The ransom letter specifies 
+                                                how to pay the ransom, typically through bitcoin or another similarly anonymous 
+                                                mechanism.
+                                        </pre>       
+                                           
+                                        </div>
+                                        
+                                </div>
+                        </section>
+
+                        <section class="sophos" id="sophos">
+                                <div class="sophos-content">
+                                        <div class="info-one">
+                                            <img src="images/sophos-one.png" class="sophos-one">    
+                                        </div>
+                                        <div class="info-two">
+                                            <img src="images/sophos-two.png" class="sophos-two">    
+                                        </div>
+                                        
+                                </div>
+                        </section>
+
+                        <section class="configuration" id="configuration">
+                                <div class="config-content">
+                                        <div class="header">
+                                            <h4> <pre>
+                                        Step By Step
+                                        Configuration of Firewall
+                                            </pre> 
+                                        </h4>    
+                                        </div>
+                                        
+                                        <video width="800" controls>
+                                                <source src="images/firewall configuration.mp4" type="video/mp4">
+                                        </video>
+                                </div>
+                        </section>
+</body>
+</html>

@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    height: 120vh;
+    width:100%;
+    background-image: url(images/profile.png);
+    background-size: cover;
+    background-position: 620px;
+    background-position-y: 80px;
+}
+
+
+body{
+    background: #D6EAF8 ;
+    color: #AED6F1;
+}
+
+.container nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 8px;
+    align-items:center;
+    background-color:#000;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family:Georgia;
+    font-style:oblique;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: #F39C12;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 30px;
+}
+nav ul li a, .dropbtn{
+    display: inline-block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover .dropbtn{
+    background: #FFFFFF;
+}
+nav ul li.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background:#FFFFFF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown-content a{
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background: #d7d2ff;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+nav ul li a:hover{
+    color: #6495ED;
+}
+
+
+.home_content{
+    color: #000;
+    text-align: justify;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.home_content h4{
+    margin: 0px 0px 10px;
+    font-size: 30px;
+}
+.home_content h1{
+    font-size: 60px;
+    font-family: Courier New;
+    margin-bottom: 10px;
+}
+span1{
+    color:#800000;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_content p{
+    font-size: 18px;
+}
+
+.home_content p1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile {
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #000;
+}
+
+.profile-content{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 600px;
+}
+
+.myprofile {
+    height: 1500px;
+    width: 1200px;
+    position: relative; bottom: 30px; left: 100px;
+}
+
+.ransomware{
+    height: 230vh;
+    width:100%;
+    background-image: url(images/bg-about.png);
+    background-size: cover;
+}
+
+.about-ransomware{
+    height: 700px;;
+    width: fit-content;
+    position: relative; left: 110px; top: 20px;
+}
+
+.stages-content h1{
+    color: #800000;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Verdana;
+    position: relative; top: 80px;
+}
+.stages-content p{
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-right: 400px;
+}
+.stages-content h3{
+    color: #000;
+    position: relative; top: 30px;
+    padding-left: 500px;
+    margin-bottom: 30px;
+}
+.stages-content pre{
+    color: #000;
+    text-align: justify;
+    font-weight: lighter;
+    padding-top: 10px;
+    padding-left: 380px;
+}
+
+.sophos{
+    height: 260vh;
+    width:100%;
+    background-color: #000;
+}
+
+.info-one{
+    position: relative; top: 50px; left: 250px;
+
+}
+.info-two{
+    position: relative; top: 150px; left: 290px;
+}
+
+.configuration{
+    height: 100vh;
+    width:100%;
+    color: #800000;
+}
+
+h4{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Tahoma;
+    text-align: center;
+    margin-top: 80px;
+    padding-right: 500px;
+}
+
+.config-content video{
+    display: block;
+    margin-top: 20px;
+    margin-left: 350px;
+}
